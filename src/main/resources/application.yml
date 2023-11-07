@@ -3,8 +3,8 @@ server:
 spring:
   data:
     mongodb:
-      # uri: mongodb+srv://admin:7vy6GYowI9fwUkbo@cluster0-pri.9hmet.mongodb.net/iot
-      uri: ${MONGO_DB_PATH}
+      uri: mongodb+srv://appuser:j79WGo9QcRztqUhG@cluster0-pri.9hmet.mongodb.net/iot
+      # uri: ${MONGO_DB_PATH}
   kafka:
     consumer:
       auto-offset-reset: earliest
