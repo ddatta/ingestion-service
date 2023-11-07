@@ -3,7 +3,8 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://appuser:j79WGo9QcRztqUhG@cluster0-pri.9hmet.mongodb.net/iot
+      uri: mongodb+srv://appuser:j79WGo9QcRztqUhG@cluster0.9hmet.mongodb.net/iot?retryWrites=true&w=majority&appName=AtlasApp
+      # uri : mongodb://85.144.246.147:27017/iot
       # uri: ${MONGO_DB_PATH}
   kafka:
     consumer:
