@@ -1,0 +1,11 @@
+org/iotdemo/ingestionservice/dto/MeasurementRequest$MeasurementRequestBuilder.class
+org/iotdemo/ingestionservice/IngestionServiceApplication.class
+org/iotdemo/ingestionservice/dto/MeasurementResponse.class
+org/iotdemo/ingestionservice/model/Measurement.class
+org/iotdemo/ingestionservice/model/Measurement$MeasurementBuilder.class
+org/iotdemo/ingestionservice/dto/MeasurementResponse$MeasurementResponseBuilder.class
+org/iotdemo/ingestionservice/repository/MeasurementRepository.class
+org/iotdemo/ingestionservice/service/MeasurementService.class
+org/iotdemo/ingestionservice/dto/MeasurementRequest.class
+org/iotdemo/ingestionservice/service/MessageConsumer.class
+org/iotdemo/ingestionservice/controller/MeasurementController.class

@@ -1,0 +1,24 @@
+server:
+  port : 8081
+spring:
+  data:
+    mongodb:
+      # uri: mongodb+srv://admin:7vy6GYowI9fwUkbo@cluster0-pri.9hmet.mongodb.net/iot
+      uri: ${MONGO_DB_PATH}
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+    # change this property if you are using your own
+    # Kafka cluster or your Docker IP is different
+    # bootstrap-servers: pkc-ewzgj.europe-west4.gcp.confluent.cloud:9092
+    bootstrap-servers: pkc-z1o60.europe-west1.gcp.confluent.cloud:9092
+    properties:
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='S3X72VYQCUZ54YKS' password='bOD6sQnTyKMb8d7uEbRUCCC7Su+PpoKQHjQ8o1+axl6ED/6TjLip1O8cMZUSmx0y';
+      security:
+        protocol: SASL_SSL
+      session:
+        timeout:
+          ms=45000:

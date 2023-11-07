@@ -1,0 +1,8 @@
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/service/MeasurementService.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/dto/MeasurementResponse.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/service/MessageConsumer.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/controller/MeasurementController.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/repository/MeasurementRepository.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/model/Measurement.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/IngestionServiceApplication.java
+/Users/dattad/work/code/iot-project/ingestion-service/src/main/java/org/iotdemo/ingestionservice/dto/MeasurementRequest.java
